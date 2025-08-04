@@ -1,0 +1,30 @@
+Draft: AI Integration Research Summary for MVP (GitHub-ready)
+Purpose
+The aim of the AI integration is to enhance the Venture Pipeline Management System by automatically analyzing venture submissions, pitch decks, and inclusion-related data. This would support the MIV team in evaluating ventures more effectively, even with limited manual resources.
+
+Proposed Use Case
+Use Natural Language Processing (NLP) to extract and score GEDSI (Gender Equality, Disability, and Social Inclusion) relevance from venture-submitted documents (e.g., business plans, pitch decks). The AI model could auto-generate:
+
+GEDSI summary
+
+Readiness assessment score
+
+Red flags or inclusion gaps
+
+Technology Considered
+OpenAI GPT-4 API for text summarization and classification
+
+LangChain for building AI pipelines with context-aware prompts
+
+Airtable Scripting / Zapier for automating results back into the database
+
+Streamlit / Flask (optional microservice frontend)
+
+Next Steps
+Prepare a dataset of sample venture descriptions
+
+Design prompt templates for GEDSI scoring
+
+Create proof-of-concept script using GPT API
+
+Document score outputs and recommendation system
